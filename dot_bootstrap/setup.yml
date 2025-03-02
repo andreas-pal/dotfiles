@@ -30,9 +30,9 @@
           - zsh
           - fzf
           - tmux
-          - ffmpeg-free
-          - zlib
-          - zlib-devel
+         # - ffmpeg-free
+         # - zlib
+         # - zlib-devel
           - make
          # - patch
          # - bzip2
