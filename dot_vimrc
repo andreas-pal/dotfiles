@@ -1,5 +1,0 @@
-set nu "steht für set numbers"
-colorscheme murphy
-set splitright
-let g:SuperTabClosePreviewOnPopupClose = 1
-
