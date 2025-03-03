@@ -9,3 +9,4 @@ export PATH=$PATH:$HOME/bin
 export PATH="$HOME/.scripts/bin:$PATH"
 
 alias v=vim
+alias rg='rg --hidden'
