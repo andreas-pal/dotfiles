@@ -10,3 +10,7 @@ This automated setup is currently tested on ubuntu machines.
 export GITHUB_USERNAME=andreas-pal
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $GITHUB_USERNAME
 ```
+## How to run on VM ##
+sudo snap install chezmoi
+chezmoi init git@github.com:andreas-pal/dotfiles.git
+chezmoi apply
