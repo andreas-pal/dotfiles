@@ -15,6 +15,7 @@ sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $GITHUB_USERNAME
 sudo snap install chezmoi --classic
 sudo snap install curl
 sudo apt install git -y
+ssh-keyscan github.com >> ~/.ssh/known_hosts
 chezmoi init git@github.com:andreas-pal/dotfiles.git
 chezmoi apply
 ```
