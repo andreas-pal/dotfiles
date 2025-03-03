@@ -10,7 +10,7 @@ This automated setup is currently tested on ubuntu machines.
 export GITHUB_USERNAME=andreas-pal
 sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply $GITHUB_USERNAME
 ```
-## How to run on VM ##
+## How to run on VM 2025 ##
 ```shell
 sudo snap install chezmoi --classic
 sudo snap install curl
