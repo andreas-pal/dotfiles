@@ -2,4 +2,5 @@ set nu "steht für set numbers"
 colorscheme murphy
 set splitright
 let g:SuperTabClosePreviewOnPopupClose = 1
-
+set tabstop=2 softtabstop=2 shiftwidth=2 expandtab "zur Not: noexpandtab"
+set list
